@@ -16,10 +16,19 @@
         </property>
 
     </bean>
+
     <bean name="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <property name="user" value="sa"/>
         <property name="password" value="123456a@"/>
         <property name="driverClass" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
-        <property name="jdbcUrl" value="jdbc:sqlserver://localhost:1433;databaseName=spring_demo;encrypt=true;trustServerCertificate=true;"/>
+        <property name="jdbcUrl" value="jdbc:sqlserver://localhost:1433;database=HN24_FJW01_SPRING;encrypt=true;trustServerCertificate=true;"/>
+
     </bean>
+
+    <bean name="transactionManagement" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+
+
 </beans>
