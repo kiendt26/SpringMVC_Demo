@@ -1,13 +1,11 @@
 package com.spring.service.impl;
 
 import com.spring.dao.ProductDAO;
-import com.spring.dto.ProductDTO;
-import com.spring.model.Product;
+import com.spring.entities.Product;
 import com.spring.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service

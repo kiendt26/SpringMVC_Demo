@@ -1,7 +1,6 @@
 package com.spring.service;
 
-import com.spring.dto.ProductDTO;
-import com.spring.model.Product;
+import com.spring.entities.Product;
 
 
 import java.util.List;

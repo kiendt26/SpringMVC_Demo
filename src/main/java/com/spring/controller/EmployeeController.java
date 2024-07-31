@@ -1,7 +1,6 @@
 package com.spring.controller;
 
-import com.spring.dao.EmployeeRepository;
-import com.spring.model.Employee;
+import com.spring.entities.Employee;
 import com.spring.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
