@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ImportResource;
 
 @SpringBootApplication
-@ImportResource("beans.xml")
+//@ImportResource("beans.xml")
 public class SpringMvcDemoApplication {
 
 	public static void main(String[] args) {
